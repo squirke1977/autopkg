@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest Go To Meeting disk image and imports into Munki.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.munki.g2m</string>
+    <string>com.github.squirke1977.autopkg.munki.g2m</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
