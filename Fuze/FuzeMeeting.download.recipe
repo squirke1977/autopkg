@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads latest Fuze Disk Image.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.download.fuze</string>
+    <string>com.github.squirke1977.autopkg.download.fuze</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
