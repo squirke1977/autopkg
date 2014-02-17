@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads latest Go To Meeting Disk image.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.download.g2m</string>
+    <string>com.github.squirke1977.autopkg.download.g2m</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
