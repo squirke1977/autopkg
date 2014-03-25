@@ -31,7 +31,7 @@
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.autopkg.download.g2m</string>
+    <string>com.github.squirke1977.autopkg.download.g2m</string>
     <key>Process</key>
     <array>
         <dict>
