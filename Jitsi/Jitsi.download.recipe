@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads latest Fuze Disk Image.</string>
+    <string>Downloads latest Jitsi Disk Image.</string>
     <key>Identifier</key>
     <string>com.github.squirke1977.autopkg.download.jitsi</string>
     <key>Input</key>
@@ -21,7 +21,7 @@
             <key>Arguments</key>
             <dict>
                 <key>appcast_url</key>
-                <string>http://download.jitsi.org/jitsi/macosx/sparkle/updates.xml<string>
+                <string>http://download.jitsi.org/jitsi/macosx/sparkle/updates.xml</string>
             </dict>
 	</dict>
         <dict>
