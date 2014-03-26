@@ -21,16 +21,14 @@
             <key>Arguments</key>
             <dict>
                 <key>appcast_url</key>
-                <string>https\://download.jitsi.org/jitsi/nightly/macosx/sparkle/updates.xml<string>
+                <string>http://download.jitsi.org/jitsi/macosx/sparkle/updates.xml<string>
             </dict>
-        </dict>
+	</dict>
         <dict>
             <key>Processor</key>
             <string>URLDownloader</string>
             <key>Arguments</key>
             <dict>
-                <key>url</key>
-                <string>%DOWNLOAD_URL%</string>
                 <key>filename</key>
                 <string>%NAME%.dmg</string>
             </dict>
