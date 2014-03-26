@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest Google Voice and Video plugin disk image and imports into Munki.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.munki.googlevoice</string>
+    <string>com.github.squirke1977.autopkg.munki.googlevoice</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -31,7 +31,7 @@
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.autopkg.download.googlevoice</string>
+    <string>com.github.squirke1977.autopkg.download.googlevoice</string>
     <key>Process</key>
     <array>
         <dict>

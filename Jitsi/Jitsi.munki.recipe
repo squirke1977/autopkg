@@ -9,9 +9,9 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Fuze</string>
+        <string>Jitsi</string>
         <key>MUNKI_REPO_SUBDIR</key>
-        <string>Apps/VC</string>
+        <string>Apps</string>
         <key>pkginfo</key>
         <dict>
             <key>catalogs</key>
@@ -26,6 +26,8 @@
             <string>%NAME%</string>
             <key>unattended_install</key>
             <true/>
+	    <key>category</key>
+	    <string>Communications</string>
         </dict>
     </dict>
     <key>MinimumVersion</key>
