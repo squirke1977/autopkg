@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the latest Fuze Meeting disk image and imports into Munki.</string>
+    <string>Downloads the latest Jitsi disk image and imports into Munki.</string>
     <key>Identifier</key>
     <string>com.github.squirke1977.autopkg.munki.jitsi</string>
     <key>Input</key>
