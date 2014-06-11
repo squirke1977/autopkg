@@ -11,7 +11,7 @@
         <key>NAME</key>
         <string>GoToMeeting</string>
         <key>DOWNLOAD_URL</key>
-        <string>https://builds.citrixonlinecdn.com/builds/g2m/1312/G2M_Mac_x86</string>
+        <string>https://builds.citrixonlinecdn.com/builds/g2m/1415/G2M_Mac_x86</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
