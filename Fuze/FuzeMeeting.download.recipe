@@ -9,9 +9,9 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>FuzeMeeting</string>
+        <string>Fuze</string>
         <key>DOWNLOAD_URL</key>
-        <string>https://downloads.fuzemeeting.com/mac/FuzeMeetingMac.dmg</string>
+        <string> http://www.fuzemeeting.com/downloads/fuze/Fuze.dmg</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
