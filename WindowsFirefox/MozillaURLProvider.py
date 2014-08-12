@@ -26,7 +26,7 @@ __all__ = ["MozillaURLProvider"]
 
 MOZ_BASE_URL = "http://ftp.mozilla.org/pub/mozilla.org/"
                #"firefox/releases")
-RE_DMG = re.compile(r'a[^>]* href="(?P<filename>[^"]+\.dmg)"')
+RE_DMG = re.compile(r'a[^>]* href="(?P<filename>[^"]+\.exe)"')
 
 
 class MozillaURLProvider(Processor):
@@ -90,7 +90,7 @@ class MozillaURLProvider(Processor):
 
         # Return URL.
         return "/".join(
-            (base_url, product_name, "releases", release_dir, "mac", locale,
+            (base_url, product_name, "releases", release_dir, "win32", locale,
              match.group("filename")))
 
     def main(self):

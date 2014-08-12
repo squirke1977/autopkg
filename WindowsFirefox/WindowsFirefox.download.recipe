@@ -19,7 +19,7 @@ combination is offered.</string>
         <key>LOCALE</key>
         <string>en-GB</string>
         <key>NAME</key>
-        <string>Firefox Setup</string>
+        <string>Firefox</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
