@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads latest Fuze Disk Image.</string>
+    <string>Downloads latest Fuze Installer for Windows</string>
     <key>Identifier</key>
-    <string>com.github.squirke1977.autopkg.download.fuze</string>
+    <string>com.github.squirke1977.autopkg.download.fuzeWindow</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Fuze</string>
+        <string>FuzeWindows</string>
         <key>DOWNLOAD_URL</key>
-        <string>http://www.fuzemeeting.com/downloads/fuze/Fuze.dmg</string>
+        <string>http://www.fuzemeeting.com/fuze/pc_download?pcgen=ngwin%26build=mc</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
@@ -25,7 +25,7 @@
                 <key>url</key>
                 <string>%DOWNLOAD_URL%</string>
                 <key>filename</key>
-                <string>%NAME%.dmg</string>
+                <string>%NAME%.exe</string>
             </dict>
         </dict>
         <dict>
