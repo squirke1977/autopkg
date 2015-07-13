@@ -11,7 +11,7 @@
         <key>NAME</key>
         <string>whosin</string>
         <key>DOWNLOAD_URL</key>
-        <string>http://elklabswhosinstaging01.thoughtworks.com:8000/whos-in-staging.pkg</string>
+        <string>http://elklabswhosinstaging01.thoughtworks.com:8000/osx-packaging/whos-in-staging.pkg</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
