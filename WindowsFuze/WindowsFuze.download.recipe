@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Pulls latest version of Whos's in</string>
+    <string>Downloads latest Google Chrome MSI for Windows.</string>
     <key>Identifier</key>
-    <string>com.github.squirke1977.autopkg.download.whosin</string>
+    <string>com.github.squirke1977.autopkg.download.WindowsFuze</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>whosin</string>
+        <string>WindowsFuze</string>
         <key>DOWNLOAD_URL</key>
-        <string>http://elklabswhosinstaging01.thoughtworks.com:8000/osx-packaging/whos-in-staging.pkg</string>
+	<string>https://www.fuzemeeting.com/downloads/fuze/FuzeInstallerPerUser.exe</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
@@ -25,7 +25,7 @@
                 <key>url</key>
                 <string>%DOWNLOAD_URL%</string>
                 <key>filename</key>
-                <string>%NAME%.pkg</string>
+                <string>%NAME%.exe</string>
             </dict>
         </dict>
         <dict>
