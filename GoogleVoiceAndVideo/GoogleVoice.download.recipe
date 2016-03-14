@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads latest Google Chrome disk image.</string>
+    <string>Downloads latest Google Voice and Video disk image.</string>
     <key>Identifier</key>
     <string>com.github.squirke1977.autopkg.download.googlevoice</string>
     <key>Input</key>
