@@ -46,7 +46,7 @@ class AWS_S3_Sync(Processor):
             "S3_PATH",
             "com.thoughtworks.s3.sync")
         if repo_path and s3_path:
-            call(['aws', 's3', 'sync', '--exclude', '.git/*', '--delete', repo_path, s3_path])
+            call(['/usr/local/bin/aws', 's3', 'sync', '--exclude', '.git/*', '--delete', repo_path, s3_path])
         else:
             self.output("No munki repo set - and/or no S3 path set - nothing synchronised")
 
