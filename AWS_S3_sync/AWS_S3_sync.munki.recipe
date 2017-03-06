@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Description</key>
+    <string>Recipe to sync content to an S3 bucket - ideally after a Makecatalogs run!</string>
+    <key>Identifier</key>
+    <string>Aws_S3_sync.munki</string>
+    <key>Input</key>
+    <dict>
+    </dict>
+    <key>MinimumVersion</key>
+    <string>0.2.0</string>
+    <key>Process</key>
+    <array>
+        <dict>
+            <key>Processor</key>
+            <string>AWS_S3_Sync</string>
+        </dict>
+    </array>
+</dict>
+</plist>
